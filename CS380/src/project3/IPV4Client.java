@@ -36,7 +36,7 @@ public class IPV4Client {
 
     public void commence() {
 	try (Socket socket = SocketFactory.getDefault().createSocket(
-		"76.91.123.97", 22222)) {
+		"76.91.123.97", 22223)) {
 
 	    if (socket.isConnected()) {
 		System.out.println("Connection to server made");
